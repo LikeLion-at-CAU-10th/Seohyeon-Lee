@@ -1,0 +1,13 @@
+.line1{
+    border: none;
+    border-top: 10px dotted rgb(141, 213, 247);
+    width: 900px;
+    margin-left: 0;
+  }
+
+
+  .box1{
+    border: 5px solid rgb(141, 213, 247);
+    padding: 10px;
+    width: 50%;
+  }
