@@ -1,0 +1,128 @@
+body{
+    margin:100px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bl{
+    height: 80%;
+    display: flex;
+}
+
+.main-container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 1780px;
+    height: 1000px;
+    justify-content: space-evenly;
+    border-style: dotted;
+}
+
+.sub-container{
+    display: flex;
+    align-items: center;
+}
+
+.con1{
+    flex-basis: 10%;
+    justify-content: space-evenly;
+}
+
+.con2{
+    flex-basis:10%;
+    justify-content: space-evenly;
+}
+
+.con3{
+    flex-basis:20%;
+    background-color: rgb(167, 253, 161);
+    justify-content: space-evenly;
+}
+
+.con4{
+    flex-basis:25%;
+    background-color: rgb(255, 164, 231);
+    justify-content: space-evenly;
+}
+
+.con5{
+    flex-basis: 35%;
+    background-color: rgb(255, 210, 148);
+    justify-content: space-evenly;
+}
+
+.block-a{
+    flex-basis: 19%;
+    background-color: rgb(253, 255, 158);
+}
+
+.block-b{
+    flex-basis: 79%;
+    background-color: rgb(255, 199, 199);
+}
+
+.block-c{
+    flex-basis: 32.5%;
+    background-color: rgb(175, 151, 255);
+}
+
+.block-d{
+    flex-basis: 36%;
+    background-color: rgb(75, 224, 112);
+}
+
+.block-e{
+    flex-basis: 54%;
+    background-color: rgb(75, 224, 112);
+}
+
+.block-f{
+    flex-basis: 54%;
+    background-color: rgb(251, 89, 184);
+    border-radius: 40px;
+    justify-content: center;
+    
+}
+
+.block-g{
+    flex-basis: 36%;
+    background-color: rgb(251, 89, 184);
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.block-h{
+    flex-basis: 36%;
+    background-color: rgb(252, 171, 20);
+}
+
+.block-i{
+    flex-basis: 54%;
+    background-color: rgb(255, 210, 148);
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.block-x{
+    flex-basis: 50%;
+    justify-content: space-evenly;
+}
+
+.block-y{
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    background-color: rgb(252, 171, 20);
+    align-items: center;
+}
+
+.block-z{
+    flex-basis: 45%;
+    background-color: rgb(252, 226, 30);
+}
+
+.block-zz{
+    flex-basis: 100%;
+    background-color: rgb(252, 171, 20);
+}
