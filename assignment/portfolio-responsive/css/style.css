@@ -1,0 +1,440 @@
+body{
+    background-color:#FAEBEF;
+}
+
+.main-box{
+    margin:30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+li{
+    display: inline;
+    margin-left: 15vh; 
+    /* 이거 바꿈 */
+
+}
+
+ul-n{
+    margin: 0px;
+    display:flex;
+}
+
+.title{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    color:#6E6E6D;
+    font-size: 25px;
+}
+
+/* 여기 바꿈 */
+@media (max-width:1023px) {
+    .t0621 {font-size:20px}
+}
+
+@media (max-width:767px) {
+    .t0621 {font-size:10px}
+}
+
+@media (max-width:639px) {
+    .t0621 {font-size:50px}
+}
+/* 여기 바꿈 */
+
+.menu-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    color:#6E6E6D;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #333D79;
+}
+
+.main-board{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    /* justify-content:center; */
+}
+
+.main-experience{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 85px;
+}
+
+.sub-board{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pic2{
+    width: 10vw;
+    height: 10vh;
+    margin-right: 150px;
+    /* border: 1px dotted black;
+    border-radius: 20px; */
+    /* 이거 바꿈.. 나중에 다시 바꿔라 */
+}
+
+.custom-shape-divider-bottom-1650945276 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650945276 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 181px;
+}
+
+.custom-shape-divider-bottom-1650945276 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.pic4{
+    width: 180px;
+}
+
+.myname{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+/* 여기부터 시작 */
+
+  /* Timeline */
+
+.timeline {
+    position: relative;
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1em 0;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.timeline:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 6px;
+    height: 100%;
+    margin-left: -3px;
+    background: rgb(80,80,80);
+    background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+    background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    
+    z-index: 5;
+}
+
+.timeline li {
+    padding: 1em 0;
+}
+
+.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.direction-l {
+    position: relative;
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+.direction-r {
+    position: relative;
+    width: 300px;
+    float: right;
+}
+
+.flag-wrapper {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.flag {
+    position: relative;
+    display: inline;
+    background: rgb(248,248,248);
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.direction-l .flag {
+    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-r .flag {
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-l .flag:before,
+.direction-r .flag:before {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    content: ' ';
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid rgb(119, 107, 107);
+    z-index: 10;
+}
+
+.direction-r .flag:before {
+    left: -40px;
+}
+
+.direction-l .flag:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
+}
+
+.direction-r .flag:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
+}
+
+.time-wrapper {
+    display: inline;
+    line-height: 1em;
+    font-size: 0.66666em;
+    color: rgb(250,80,80);
+    vertical-align: middle;
+}
+
+.direction-l .time-wrapper {
+    float: left;
+}
+
+.direction-r .time-wrapper {
+    float: right;
+}
+
+.time {
+    display: inline-block;
+    padding: 4px 6px;
+    background: rgb(248,248,248);
+}
+
+.desc {
+    margin: 1em 0.75em 0 0;
+    
+    font-size: 0.77777em;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.direction-r .desc {
+    margin: 1em 0 0 0.75em;
+}
+
+/*  끝  */
+
+
+/* 웨이브 */
+
+.inner-header {
+    height:45vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height:15vh;
+    margin-bottom:-7px; 
+    min-height:100px;
+    max-height:150px;
+    margin-top: 30px;
+}
+
+.footer {
+    height:20vh;
+    text-align:center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+/* Animation */
+
+.parallax > use {
+animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    }
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+    transform: translate3d(-90px,0,0);
+    }
+    100% { 
+        transform: translate3d(85px,0,0);
+    }
+    }
+/*  웨이브 끝 */
+
+
+
+
+/* darkmode */
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 26px;
+    background-color: black;
+    border-radius: 50px;
+    /* transform: scale(1.5); */
+    position: absolute;
+}
+
+
+.ball{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 22px;
+    height:22px;
+    top:2px;
+    left: 2px;
+    transition: transform 0.2s ease-out;
+}
+
+body.dark {
+    background: #292C35;
+}
+
+body.dark p{
+    color:#fff;
+}
+
+body.dark a{
+    color:#fff;
+}
+
+body.dark .contact{
+    color:#292C35;
+}
+
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+
+.checkbox{
+    position: absolute;
+    opacity: 100;
+}
+
+.fa-moon{
+    color:#f1c40f;
+}
+
+.fa-sun{
+    color:#f39c12;
+}
+
+.darkmode-bu{
+    position: relative;
+}
