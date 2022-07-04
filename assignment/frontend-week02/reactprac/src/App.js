@@ -1,15 +1,26 @@
-import React from 'react'
+import React from 'react';
 import './App.css';
-import Imgbox from './real/Imgbox'
-import Textbox from './real/Textbox'
+import Imgbox from './real/Imgbox';
+import Textbox from './real/Textbox';
 
 function App() {
   return (
-    <>
-        가보자 가보장!
-        <Imgbox></Imgbox>
-        <Textbox></Textbox>
-    </>
+    <div className='container'>
+
+        <div className='container2'>
+            <Imgbox></Imgbox>
+        </div>
+
+        <div className='container3'>
+            <Textbox></Textbox>
+        </div>
+
+
+
+
+
+    </div>
+
   );
 }
 

@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 5vw;
+    position: relative;
+}
+
+.container3{
+    display: flex;
+    position:absolute;
+    top:80%;
+    left:10%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}

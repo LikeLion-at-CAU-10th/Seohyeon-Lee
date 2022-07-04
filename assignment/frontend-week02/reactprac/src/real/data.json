@@ -1,0 +1,7 @@
+{
+    "kuromi":[
+        {"id":1, "img":"img/kupink.jpg","title":"얘는 쿠로미야"},
+        {"id":2, "img":"img/kuyellow.jpg","title":"쿠로미 최고"},
+        {"id":3, "img":"img/kublue.jpg","title":"쿠로미 귀여워 "}
+    ]
+}
