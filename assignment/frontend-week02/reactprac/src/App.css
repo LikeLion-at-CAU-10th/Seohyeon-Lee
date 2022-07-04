@@ -3,22 +3,22 @@
     margin: 0px;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 5vw;
-    position: relative;
+    margin-top: 200px;
+    margin-left: 200px;
 }
 
 .container3{
     display: flex;
-    position:absolute;
-    top:83%;
+    top:36%;
     left:48px;
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 157px;
+    margin-right: 15px;
+    position:absolute;
 }
 
 .container2{
     display: flex;
     justify-content: center;
     margin: 0px;
+    position:absolute;
 }
