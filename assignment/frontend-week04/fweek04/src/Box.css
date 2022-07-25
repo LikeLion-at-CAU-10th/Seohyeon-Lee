@@ -15,3 +15,9 @@ p{
 .price{
     color:orange;
 }
+
+.detail{
+    display: flex;
+    color: gray;
+    justify-content: flex-end;
+}
