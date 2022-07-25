@@ -4,6 +4,8 @@ import styled from "styled-components";
 import "./App.css";
 import { Routes, Route } from 'react-router-dom';
 import Detail from './Detail';
+
+
 const StyledApp=styled.div`
 display:flex;
 justify-content:center;
@@ -17,6 +19,7 @@ const App = () => {
   return (
     <>
         <Routes>
+
             <Route path="/" element={
                 <StyledApp>
                 <StyledCard>
@@ -24,9 +27,9 @@ const App = () => {
                     <Box></Box>
                 </StyledCard>
                 </StyledApp>
-            }>
-            </Route>
-            <Route path="/detail:id" element={<Detail/>}> </Route>
+            }></Route>
+            
+            <Route path="/detail/:id" element={<Detail/>}></Route> {/* detail 뒤에 / 도 잊지말고 쓰자. 중첩 라우팅일때만 빼는 거임 */}
 
         </Routes>
     </>
