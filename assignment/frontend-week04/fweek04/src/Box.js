@@ -26,7 +26,7 @@ const Box = () => {
 
     return <>
         {data.products.map((product, i) => (
-            <StyledBox key={product.id}>
+            <StyledBox>
                 <img src={product.img} alt="no img"></img>
                 <p><b>{product.title}</b></p>
                 <p className="address">{product.address}</p>

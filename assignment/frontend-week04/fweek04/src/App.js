@@ -26,9 +26,7 @@ const App = () => {
                 </StyledApp>
             }>
             </Route>
-        
-
-            <Route path="/detial:detid" element={<Detail/>}> </Route>
+            <Route path="/detail:id" element={<Detail/>}> </Route>
 
         </Routes>
     </>
