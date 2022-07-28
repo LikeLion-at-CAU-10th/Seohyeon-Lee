@@ -1,29 +1,38 @@
-import React from 'react'
-import data from './data/data.json';
-import { useParams } from 'react-router-dom';
-import styled from "styled-components"
+import React from "react";
+import { useParams, useLocation } from "react-router-dom";
+import styled from "styled-components";
 
-const StyledDom=styled.div`
-display:flex;
-align-items:center;
-justify-content:center;
-margin-top:50vh;
-`
+const StyledDom = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vh;
+    flex-direction: column;
+`;
+
+const TitleDom = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 20vh;
+`;
 
 const Detail = () => {
-  const a = useParams();
-  const id = parseInt(a.id); //parseInt를 써서 스트링 타입을 정수타입으로 변환해야 ===를 쓸 수 있음
-  const thing = data.products.filter((product) => product.id === id)[0];
+	const { state } = useLocation();
 
-  return (
-    <>
-        <StyledDom>
-            <div> {thing.id}번째 상품이 쨔잔~ 상품이름은 {thing.title}이지롱! </div> 
-        </StyledDom>
-       
-
-    </>
-  )
-}
+	return (
+		<>
+        <TitleDom>
+<h3>여기는 디테일 페이지~</h3>
+        </TitleDom>
+			<StyledDom>
+				<p> 상품번호:{state.id}</p>
+				<p> 상품번호:{state.title}</p>
+				<p> 거래하는 곳 주소:{state.address}</p>
+				<p> 가격:{state.price}</p>
+			</StyledDom>
+		</>
+	);
+};
 
 export default Detail;
