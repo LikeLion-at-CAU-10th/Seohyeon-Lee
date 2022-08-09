@@ -26,7 +26,6 @@
     - 데이터를 브라우저에 저장되어 있어 개인정보 유출에 취약
     → 데이터를 서버에 저장하는 방식으로 발전: 세션!
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd002139-40ad-40bb-8ee9-3a298812d1b1/Untitled.png)
 
 - 세션: 일정동안 브라우저로 돌아오는 요구를 유지시키는 기술
     - 쿠키와는 다르게, 데이터를 서버 측에 저장
@@ -35,8 +34,6 @@
     - session-id 로 클라이언트 구분
     - session-id 는 쿠키타고 (저장) 다님!!
     
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e68c7293-7e53-4795-96fa-10a7ee1b4a03/Untitled.png)
 
 - 세션 기반 인증: 서버가 사용자가 로그인 중임을 기억하고 있는 로직
     1. 로그인 하면, 서버는 세션 저장소에 사용자 정보를
@@ -49,8 +46,6 @@
     - 과부하 방지를 위해, 간단한 것들은 쿠키에 저장
     
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1ec3b075-8e5f-4f48-abf2-a33c0d1279e2/Untitled.png)
-
 ---
 
 ### 📍토큰&토큰 기반 인증
@@ -60,9 +55,6 @@
     - 명함과 같은 기능이라고 생각하자
     - 토큰을 1개만 쓰면 보안 이슈가 있음 → 2개를 써서 서로의 유효성을 검사함.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80f0f2ed-ed35-43c0-a344-f7e406094db3/Untitled.png)
-
----
 
 ### 📍CORS
 
